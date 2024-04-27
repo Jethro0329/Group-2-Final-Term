@@ -1,0 +1,97 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+.navbar {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+.nav-table {
+    display: inline-block;
+}
+
+.nav-table td {
+    width: 500px;
+}
+
+.nav-table a {
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.nav-table a:hover {
+    background-color: #555; /* Change background color on hover */
+}
+
+/* CSS for team heading */
+.team-heading {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* CSS for team member sections */
+.team-member {
+    display: inline-block;
+    margin-right: 20px;
+    text-align: center;
+}
+
+/* CSS for member image */
+.member-image {
+    height: 150px;
+    width: 150px;
+}
+
+/* CSS for member details */
+.member-details {
+    margin-top: 10px; /* Adjust margin as needed */
+    text-align: left; /* Align text to the left */
+}
+/* CSS for footer table */
+
+.footer-table {
+    width: 100%;
+    background-color: #333;
+    text-align: center;
+    margin-top: 150px;
+}
+
+/* CSS for footer links */
+.footer-link {
+    display: inline-block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* CSS for footer */
+.footer {
+    background-color: #333;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+/* CSS for social links */
+.social-link {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+/* CSS for social icons */
+.social-icon {
+    width: 20px;
+    height: 20px;
+}

@@ -1,0 +1,87 @@
+.navbar {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+.nav-table {
+    display: inline-block;
+}
+
+.nav-table td {
+    width: 500px;
+}
+
+.nav-table a {
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.nav-table a:hover {
+    background-color: #555; /* Change background color on hover */
+}
+
+/* CSS for content container */
+.content-container {
+    text-align: center;
+}
+
+/* CSS for content paragraphs */
+.content-paragraph {
+    font-size: 20px;
+    text-align: justify;
+}
+
+/* CSS for image container */
+.image-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* CSS for content image */
+.content-image {
+    width: 600px;
+    height: 400px;
+}
+
+.footer-container {
+    background-color: #333;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+.footer-links td {
+    text-align: center;
+}
+
+.footer-link {
+    display: inline-block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* CSS for contact info */
+.contact-info {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.contact-info p {
+    margin-bottom: 5px;
+}
+
+/* CSS for social links */
+.social-link {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+/* CSS for social icons */
+.social-link img {
+    width: 20px;
+    height: 20px;
+}

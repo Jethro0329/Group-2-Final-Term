@@ -1,0 +1,136 @@
+.navbar {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+.nav-table {
+    display: inline-block;
+}
+
+.nav-table td {
+    width: 500px;
+}
+
+.nav-table a {
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.nav-table a:hover {
+    background-color: #555; /* Change background color on hover */
+}
+
+/* CSS for main heading */
+.main-heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* CSS for content table */
+.content-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* CSS for image column */
+.image-column {
+    width: 20%;
+    vertical-align: top;
+}
+
+/* CSS for text column */
+.text-column {
+    width: 50%;
+    vertical-align: top;
+}
+
+/* CSS for effects list */
+.effects-list {
+    font-size: 20px;
+    line-height: 1.6;
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+/* Additional styles for combined code */
+/* CSS for table container */
+.table-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+/* CSS for image container */
+.image-container {
+    width: 20%;
+}
+
+/* CSS for text container */
+.text-container {
+    width: 50%;
+}
+
+/* CSS for waste image */
+.waste-image {
+    width: 100%;
+    height: auto;
+}
+
+/* CSS for navigation table */
+.navigation-table {
+    width: 100%;
+    background-color: white;
+    border-collapse: collapse;
+}
+
+/* CSS for navigation links */
+.nav-link {
+    display: block;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    padding: 75px 16px;
+    text-align: center;
+}
+
+.nav-link:hover {
+    background-color: #f0f0f0;
+}
+
+/* CSS for left-aligned link */
+.navigation-table td:first-child {
+    text-align: left;
+}
+
+/* CSS for right-aligned link */
+.navigation-table td:last-child {
+    text-align: right;
+}
+
+/* CSS for footer */
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+/* CSS for footer table */
+.footer-table {
+    width: 100%;
+}
+
+/* CSS for footer links */
+.footer-link {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 14px 16px;
+    text-align: center;
+}
+
+/* Additional styles for footer links on hover */
+.footer-link:hover {
+    background-color: #555;
+}

@@ -1,0 +1,80 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+.navbar {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+.nav-table {
+    display: inline-block;
+}
+
+.nav-table td {
+    width: 500px;
+}
+
+.nav-table a {
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.nav-table a:hover {
+    background-color: #555; /* Change background color on hover */
+}
+
+/* Content styles */
+.content {
+    margin: 20px;
+}
+
+/* Footer styles */
+.footer {
+    background-color: #333;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+/* Table in footer styles */
+.footer-table {
+    width: 100%;
+    background-color: #333;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.footer-table a {
+    display: inline-block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.social-link img {
+    width: 20px; /* Adjust the size as needed */
+    height: 20px; /* Adjust the size as needed */
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+ol li a {
+    text-decoration: underline;
+}
