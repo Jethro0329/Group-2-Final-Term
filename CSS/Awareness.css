@@ -1,123 +1,148 @@
-.navbar {
-    background-color: #333;
-    padding: 10px;
-    text-align: center;
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f8f7; /* Light beige background */
+    margin: 0;
+    padding: 0;
 }
 
-.nav-table {
+.header {
+    background-color: #4caf50; /* Dark green header */
+    padding: 10px;
+    text-align: center;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar {
     display: inline-block;
 }
 
-.nav-table td {
-    width: 500px;
-}
-
-.nav-table a {
+.navbar a {
     color: white;
     text-decoration: none;
-    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
 }
 
-.nav-table a:hover {
-    background-color: #555; /* Change background color on hover */
+.navbar a:hover {
+    background-color: #81c784; /* Lighter green on hover */
 }
 
-/* CSS for main heading */
+/* Main Heading */
 .main-heading {
     text-align: center;
     margin-bottom: 20px;
-}
+    color: #2e8540;
+  }
 
-/* CSS for table container */
-.table-container {
+  /* Table Container */
+  .table-container {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-}
+    margin: 20px auto;
+    max-width: 1200px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
 
-/* CSS for image container */
-.image-container {
+  /* Image Container */
+  .image-container {
     width: 30%;
-}
+    margin-right: 20px;
+  }
 
-/* CSS for text container */
-.text-container {
-    width: 60%;
-}
+  /* Text Container */
+  .text-container {
+    width: 70%;
+  }
 
-/* CSS for waste image */
-.waste-image {
-    width: 95%;
+  /* Waste Image */
+  .waste-image {
+    width: 100%;
     height: auto;
-    margin-top: 25px;
-}
+    border-radius: 10px;
+  }
 
-/* CSS for content paragraphs */
-.content-paragraph {
+  /* Content Paragraph */
+  .content-paragraph {
     text-align: justify;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 1.6;
-}
+    color: #333333;
+  }
 
-/* CSS for benefits list */
-.benefits-list {
+  /* Benefits List */
+  .benefits-list {
     list-style-type: disc;
     padding-left: 20px;
-}
+    margin-top: 10px;
+  }
+
+  /* Benefits List Items */
+  .benefits-list li {
+    margin-bottom: 10px;
+  }
 
 /* CSS for navigation table */
 .navigation-table {
     width: 100%;
-    background-color: white;
+    background-color: #f0f8f7; /* Light beige background for navigation */
     border-collapse: collapse;
+    margin-top: 20px;
+    text-align: center;
 }
 
-/* CSS for navigation links */
 .nav-link {
-    display: block;
-    font-size: 20px;
+    display: inline-block;
+    font-size: 18px;
     color: black;
     text-decoration: none;
-    padding: 75px 16px;
-    text-align: center;
+    padding: 10px;
+    background-color: #e0e0e0; /* Light gray background */
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
 }
 
 .nav-link:hover {
-    background-color: #f0f0f0;
-}
-
-/* CSS for left-aligned link */
-.navigation-table td:first-child {
-    text-align: left;
-}
-
-/* CSS for right-aligned link */
-.navigation-table td:last-child {
-    text-align: right;
+    background-color: yellowgreen; /* Slightly darker gray on hover */
 }
 
 /* CSS for footer */
-.footer {
-    background-color: #333;
-    color: white;
+.footer-container {
+    background-color: #4caf50; /* Dark green footer */
+    text-align: center;
     padding: 20px;
+    color: white;
+    margin-top: 20px;
 }
 
-/* CSS for footer table */
-.footer-table {
-    width: 100%;
+.footer-links {
+    margin-bottom: 10px;
 }
 
-/* CSS for footer links */
 .footer-link {
     color: white;
     text-decoration: none;
-    display: block;
-    padding: 14px 16px;
-    text-align: center;
+    margin-right: 20px;
+    transition: opacity 0.3s ease;
 }
 
-/* Additional styles for footer links on hover */
 .footer-link:hover {
-    background-color: #555;
+    opacity: 0.8; /* Slightly reduce opacity on hover */
+}
+
+.social-link {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+    transition: opacity 0.3s ease;
+}
+
+.social-link:hover {
+    opacity: 0.8; /* Slightly reduce opacity on hover */
 }

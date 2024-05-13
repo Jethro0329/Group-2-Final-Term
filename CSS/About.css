@@ -1,80 +1,104 @@
 /* General styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e9f5f1; /* Light green background */
     margin: 0;
     padding: 0;
 }
 
-a {
-    color: #333;
-    text-decoration: none;
+/* Updated header styles */
+.header {
+    background-color: #3e6846; /* Dark green header */
+    padding: 10px;
+    text-align: center;
+    color: white;
 }
 
 .navbar {
-    background-color: #333;
-    padding: 10px;
-    text-align: center;
-}
-
-.nav-table {
     display: inline-block;
 }
 
-.nav-table td {
-    width: 500px;
-}
-
-.nav-table a {
+.navbar a {
     color: white;
     text-decoration: none;
-    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
 }
 
-.nav-table a:hover {
-    background-color: #555; /* Change background color on hover */
+.navbar a:hover {
+    background-color: #558e64; /* Lighter green on hover */
 }
 
-/* Content styles */
+/* Content Styles */
 .content {
     margin: 20px;
-}
+    color: #333; /* Dark text color */
+  }
 
-/* Footer styles */
-.footer {
-    background-color: #333;
+  .content h2 {
+    color: #138d75; /* Dark green heading */
+  }
+
+  .content p strong {
+    color: #138d75; /* Dark green strong text */
+  }
+
+  .content ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+
+  .content ul li {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 10px;
+  }
+
+  .content ul li:before {
+    content: "●";
+    position: absolute;
+    left: 0;
+    color: #138d75; /* Dark green bullet color */
+  }
+
+  /* Social Link Styles */
+  .social-link {
+    color: #138d75; /* Dark green social link color */
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .social-link:hover {
+    text-decoration: underline;
+  }
+
+/* CSS for footer table */
+.footer-container {
+    background-color: #3e6846; /* Dark green footer */
     text-align: center;
     padding: 20px;
     color: white;
+    margin-top: 20px;
 }
 
-.footer a {
+.footer-link {
     color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    transition: opacity 0.3s ease;
+}
+
+.footer-link:hover {
+    opacity: 0.8; /* Slightly reduce opacity on hover */
+}
+
+.social-link {
+    color: green;
     text-decoration: none;
     margin-right: 10px;
+    transition: opacity 0.3s ease;
 }
 
-/* Table in footer styles */
-.footer-table {
-    width: 100%;
-    background-color: #333;
-    text-align: center;
-    margin-top: 0px;
-}
-
-.footer-table a {
-    display: inline-block;
-    color: white;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-.social-link img {
-    width: 20px; /* Adjust the size as needed */
-    height: 20px; /* Adjust the size as needed */
-    vertical-align: middle;
-    margin-right: 5px;
-}
-
-ol li a {
-    text-decoration: underline;
+.social-link:hover {
+    opacity: 0.8; /* Slightly reduce opacity on hover */
 }
